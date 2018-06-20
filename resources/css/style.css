@@ -5,7 +5,6 @@
 }
 
 .header {
-  position: fixed;
   display: flex;
   font-family: Verdana;
   font-size: 14px;
@@ -26,7 +25,6 @@
   flex-grow: 1;
 }
 
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -38,7 +36,6 @@ nav {
 span {
   display: inline-block;
   padding: 20px;
-
 }
 
 a {
@@ -47,26 +44,134 @@ a {
 
 .content {
   display: flex;
-  position: fixed;
-  border: 1px solid black;
-  margin-top: 116px;
+  margin: 0 auto 78px 67px;
 }
 
 .column.large {
   display: flex;
   width: 630px;
-  border: 1px solid black;
   flex-direction: column;
-  margin-right: 30px;
+  margin-top: 30px;
+  margin-right: 50px;
 }
 
 .column.medium {
   display: flex;
-  border: 1px solid black;
   flex-direction: column;
   width: 300px;
+  margin-top: 30px;
+  margin-right: 50px;
+
 }
 
 .column.small {
+  margin-top: 30px;
   width: 240px;
+}
+
+.mainstory {
+  display: flex;
+  flex-direction: column;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.secondstory {
+  display: flex;
+  flex-direction: column;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.thirdstory {
+  display: flex;
+  flex-direction: column;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.imgcookie {
+  display: flex;
+  background-image: url("../../resources/images/cookie.png");
+  width: 240px;
+  height: 240px;
+}
+
+.img1 {
+  display: flex;
+  background-image: url("../../resources/images/story-main.png");
+  height: 302px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.img2 {
+  display: flex;
+  background-image: url("../../resources/images/fall-season.png");
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  width: 300px;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+
+.img3 {
+  display: flex;
+  background-image: url("../../resources/images/HipsterCameraman.png");
+  width: 630px;
+  height: 302px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  width: 300px;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+
+.img4 {
+  display: flex;
+  background-image: url("../../resources/images/cat-ceo.png");
+  width: 300px;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin-top: 25px;
+}
+
+span.text-img {
+  display: flex;
+  text-align: center;
+  padding: 10px;
+}
+
+h2 {
+  text-align: left;
+}
+
+p {
+  text-align: left;
+  margin-top: 25px;
 }
