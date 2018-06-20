@@ -25,6 +25,10 @@
   flex-grow: 1;
 }
 
+p.logo {
+  margin-top: 0;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
