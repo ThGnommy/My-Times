@@ -175,7 +175,58 @@ h2 {
   text-align: left;
 }
 
+h3.new.bites {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 20px 0 40px 0;
+}
+
 p {
   text-align: left;
   margin-top: 25px;
+}
+
+p.bites.column {
+  margin: 0;
+  padding: 15px;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.cookie.column {
+  display: flex;
+  flex-direction: column;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+
+footer {
+  display: flex;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  width: 100%;
+  height: 325px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footermt {
+  margin: 25px;;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  padding-right: 25px;
+}
+
+.copyfooter {
+  margin: 0;
 }
